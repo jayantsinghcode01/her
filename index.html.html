@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laado Ke Liye ❤️</title>
+<style>
+:root{color-scheme:light dark;--pink:#ff719d;--rose:#c52d65;--ink:light-dark(#4c2035,#ffeaf1);--muted:light-dark(#86576a,#e6afc3);--paper:light-dark(#fff8fb,#26131e);--panel:light-dark(#ffffff,#351a29);--line:light-dark(#f3cbd9,#623249)}
+*{box-sizing:border-box}body{margin:0;font-family:ui-rounded,"Segoe UI",system-ui,sans-serif;background:var(--paper);color:var(--ink)}#app{min-height:100vh;background:radial-gradient(ellipse at top,light-dark(#ffe0eb,#4b2036),var(--paper) 62%);overflow:hidden;padding:28px 16px 60px;text-align:center}.wrap{max-width:760px;margin:auto}.eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:.75rem;color:var(--rose);font-weight:800}.hero{padding:48px 8px 28px}.heart{font-size:3rem;display:inline-block;animation:beat 1.5s infinite}.hero h1{font-family:Georgia,serif;font-size:clamp(2.4rem,8vw,4.7rem);line-height:1.05;margin:18px 0;color:var(--rose);font-weight:500}.hero p{font-size:1.1rem;color:var(--muted);line-height:1.8;max-width:540px;margin:18px auto}.card{background:var(--panel);border:1px solid var(--line);border-radius:26px;padding:clamp(22px,5vw,38px);margin:18px auto;box-shadow:0 18px 55px #a72d5b12}.card h2{font-family:Georgia,serif;font-size:1.8rem;color:var(--rose);font-weight:500;margin:0 0 14px}.letter{font-size:1.05rem;line-height:1.95;white-space:pre-line}.actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:24px}button{font:inherit;font-weight:750;border:0;border-radius:999px;padding:14px 22px;cursor:pointer;transition:transform .2s}button:hover{transform:translateY(-2px)}.primary{background:var(--rose);color:white}.secondary{background:light-dark(#ffe5ee,#51253b);color:var(--ink);border:1px solid var(--line)}.hidden{display:none}.answer{margin-top:20px;color:var(--rose);font-size:1.25rem;font-weight:750;line-height:1.6}.memory{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}.memory div{border:1px dashed var(--line);border-radius:18px;padding:18px 8px;color:var(--muted);font-size:.92rem}.memory b{display:block;font-size:1.6rem;margin-bottom:8px}.footer{margin-top:32px;color:var(--muted);font-size:.9rem}.sparkle{position:fixed;pointer-events:none;z-index:2;animation:float 3s ease-out forwards;font-size:20px}@keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.13)}}@keyframes float{from{transform:translateY(0) rotate(0);opacity:1}to{transform:translateY(-150px) rotate(30deg);opacity:0}}@media(max-width:520px){.memory{grid-template-columns:1fr}.hero{padding-top:30px}}
+</style>
+</head>
+<body><main id="app"><div class="wrap">
+<section class="hero"><div class="eyebrow">ek chhoti si baat, meri Laado ke liye</div><div class="heart">❤️</div><h1>Yashica,<br>Meri Pyaari Laado</h1><p>Sirf message like karke chhod diya… aur tumhe laga ki mujhe care nahi hai. 🥺 Laado, tum mere liye bahut special ho.</p></section>
+<section class="card"><h2>Dil se ek sorry, Laado… 💌</h2><div class="letter">Meri pyaari Laado, ❤️
+
+Sorry yaar, maine tumhara message bas like karke chhod diya. Mujhe samajh aa raha hai ki tumhe aisa laga hoga ki main tumhari baat ko importance nahi deta ya tumhari care nahi karta.
+
+Par sach mein, Yashica, tum mere liye bahut important ho. Meri galti ye thi ki maine tumhe apne actions se feel nahi karaya. Sirf dil mein care hona kaafi nahi, mujhe tumhe apni baaton aur actions se bhi dikhani chahiye.
+
+Main tumse ye nahi kahunga ki naraz mat ho—tumhari feelings valid hain. Bas ek chance dena ki main tumhari baat dhang se sun sakun aur aage se aise message ko bas like karke na chhodun. Tumse baat karna aur tumhe samajhna mere liye important hai.
+
+Sorry meri Laado. Jab tumhara mann kare, mujhse baat kar lena. Ek pyaara sa hug pending hai. 🫂❤️</div><div class="actions"><button class="primary" id="forgive">Laado, ek hug? 🫂</button><button class="secondary" id="note">Ek aur baat sunogi? 💗</button></div><div id="answer" class="answer hidden" aria-live="polite"></div></section>
+<section class="card"><h2>Hamari chhoti si duniya ✨</h2><p style="color:var(--muted);line-height:1.7">Yahan tum dono ki favourite memories ke liye jagah hai. In teen baaton ko apni story se badal dena:</p><div class="memory"><div><b>🌷</b>Woh pehli mulaqat</div><div><b>🌙</b>Hamari favourite yaad</div><div><b>💞</b>Ek baat jo sirf hum jaante hain</div></div></section>
+<section class="card"><h2>Laado ke liye mera vaada 🤍</h2><p class="letter">Main perfect nahi hoon, par tumhari baat ko importance dena, tumhari feelings sunna aur care sirf kehna nahi balki dikhana seekhunga. Tumhe turant maaf karna zaroori nahi—jab ready ho, tab baat karna.</p><div class="heart">💖</div><p style="color:var(--rose);font-family:Georgia,serif;font-size:1.25rem">Yashica, meri Laado, tum mere liye special ho. ❤️</p></section>
+<div class="footer">Tumhara, sirf tumhari Laado ke liye ❤️</div></div></main>
+<script>
+const answer=document.getElementById('answer');
+document.getElementById('forgive').addEventListener('click',()=>{answer.textContent='Meri Laado, tum par koi pressure nahi. Jab tum ready ho, ek pyaara sa hug pending hai. 🫂❤️';answer.classList.remove('hidden');burst()});
+document.getElementById('note').addEventListener('click',()=>{answer.textContent='Yashica, mujhe tumhari care hai. Ab mujhe woh apne actions se bhi dikhani hai—tumhari baat dhang se sun kar, reply karke aur tumhe importance dekar. 💗';answer.classList.remove('hidden');burst()});
+function burst(){const symbols=['💗','💕','🌸','✨','❤️'];for(let i=0;i<18;i++){const s=document.createElement('span');s.className='sparkle';s.textContent=symbols[Math.floor(Math.random()*symbols.length)];s.style.left=(8+Math.random()*84)+'vw';s.style.top=(45+Math.random()*40)+'vh';s.style.animationDelay=(Math.random()*.6)+'s';document.body.appendChild(s);setTimeout(()=>s.remove(),3600)}}
+</script></body></html>
